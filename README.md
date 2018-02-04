@@ -1,13 +1,13 @@
-run following commands to setup project:
-1. npm install
+1. Установить зависимость. Запустить в консоле:
+npm install
 
-2. Start test
+2. Запустить тесты:
 npm test
 
 
 ___________________________________________________________________
 
-run one test setting on wdio.conf:
+Чтобы запустить один тест wdio.conf:
 specs: [        
         'tests/tests/authorization.test.js'
 ____________________________________________________________________
