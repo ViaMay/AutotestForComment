@@ -1,10 +1,7 @@
 run following commands to setup project:
 1. npm install
 
-2. selenium install:
-npm run setup-test_selenium_install
-
-3. Start test
+2. Start test
 npm test
 
 
@@ -12,7 +9,7 @@ ___________________________________________________________________
 
 run one test setting on wdio.conf:
 specs: [        
-        'tests/tests/upMenu.test.js'
+        'tests/tests/authorization.test.js'
 ____________________________________________________________________
 for debug used 
         browser.debug(); 

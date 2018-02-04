@@ -1,4 +1,4 @@
-var debug = true;
+var debug = false;
 exports.config = {
     debug: debug, specs: debug ? ['tests/tests/authorization.test.js'] :['tests/tests/*.js'],
     maxInstances: debug ? 1 : 1,
